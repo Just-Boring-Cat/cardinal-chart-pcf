@@ -1,5 +1,12 @@
 # CurveChart PCF
 
+[![Release](https://img.shields.io/github/v/release/Just-Boring-Cat/cardinal-chart-pcf?label=release)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/releases)
+[![License](https://img.shields.io/github/license/Just-Boring-Cat/cardinal-chart-pcf)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Just-Boring-Cat/cardinal-chart-pcf)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/Just-Boring-Cat/cardinal-chart-pcf)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf)
+[![Platform](https://img.shields.io/badge/Power%20Apps-PCF-742774)](https://learn.microsoft.com/power-apps/developer/component-framework/overview)
+[![Package](https://img.shields.io/badge/Dataverse-Managed%20Solution-0a7f2e)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/releases)
+
 Power Apps Component Framework (PCF) custom control repository.
 
 CurveChart is a PCF virtual control for Canvas apps that renders interactive XY curve and line charts from JSON, with ordering modes, duplicate policies, and hover and selection outputs.
