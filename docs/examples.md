@@ -33,6 +33,16 @@ Recommended property values:
 - `orderingMode = input_order`
 - `duplicatePolicy = allow`
 
+Visual reference:
+
+Sample definition:
+
+![Index-driven sample table](sample-images/index-driven_sample.png)
+
+PCF output:
+
+![Index-driven chart output](sample-images/index-driven_pcf.png)
+
 ## X ascending with duplicates kept
 ```json
 {
@@ -59,6 +69,16 @@ Recommended property values:
   ]
 }
 ```
+
+Visual reference:
+
+Sample definition:
+
+![Sorted X sample table](sample-images/sorted-x_sample.png)
+
+PCF output:
+
+![Sorted X chart output](sample-images/sorted-x_pcf.png)
 
 ## X ascending unique with keep_last dedupe
 ```json
