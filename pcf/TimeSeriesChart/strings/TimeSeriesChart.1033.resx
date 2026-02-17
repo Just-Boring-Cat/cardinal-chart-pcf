@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="TimeSeriesChart_Display_Key" xml:space="preserve">
+    <value>Curve chart</value>
+  </data>
+  <data name="TimeSeriesChart_Desc_Key" xml:space="preserve">
+    <value>Interactive time-series chart for canvas apps. Provide series via seriesJson; hover and selection are exposed via outputs and events.</value>
+  </data>
+
+  <data name="SeriesJson_Display_Key" xml:space="preserve">
+    <value>Series JSON</value>
+  </data>
+  <data name="SeriesJson_Desc_Key" xml:space="preserve">
+    <value>Either an array of points [{x:number,y:number,label?,index?},...] or an object {mode,duplicatePolicy,points:[...]}. Supports x or legacy t for X values.</value>
+  </data>
+
+
+  <data name="XAxisLabel_Display_Key" xml:space="preserve">
+    <value>X axis label</value>
+  </data>
+  <data name="XAxisLabel_Desc_Key" xml:space="preserve">
+    <value>Label for the X axis (seconds).</value>
+  </data>
+
+  <data name="YAxisLabel_Display_Key" xml:space="preserve">
+    <value>Y axis label</value>
+  </data>
+  <data name="YAxisLabel_Desc_Key" xml:space="preserve">
+    <value>Label for the Y axis (float values).</value>
+  </data>
+
+  <data name="OrderingMode_Display_Key" xml:space="preserve">
+    <value>Ordering mode</value>
+  </data>
+  <data name="OrderingMode_Desc_Key" xml:space="preserve">
+    <value>Point ordering rule: input_order, x_ascending, x_ascending_unique, or x_strict.</value>
+  </data>
+
+  <data name="DuplicatePolicy_Display_Key" xml:space="preserve">
+    <value>Duplicate policy</value>
+  </data>
+  <data name="DuplicatePolicy_Desc_Key" xml:space="preserve">
+    <value>Duplicate-x handling for sorted modes: allow, error, keep_first, keep_last.</value>
+  </data>
+
+  <data name="RenderMode_Display_Key" xml:space="preserve">
+    <value>Render mode</value>
+  </data>
+  <data name="RenderMode_Desc_Key" xml:space="preserve">
+    <value>Deprecated. The control always renders inline.</value>
+  </data>
+
+  <data name="OpenButtonLabel_Display_Key" xml:space="preserve">
+    <value>Open button label</value>
+  </data>
+  <data name="OpenButtonLabel_Desc_Key" xml:space="preserve">
+    <value>Deprecated. No longer used.</value>
+  </data>
+
+  <data name="ModalTitle_Display_Key" xml:space="preserve">
+    <value>Modal title</value>
+  </data>
+  <data name="ModalTitle_Desc_Key" xml:space="preserve">
+    <value>Deprecated. No longer used.</value>
+  </data>
+
+  <data name="TooltipEnabled_Display_Key" xml:space="preserve">
+    <value>Tooltip enabled</value>
+  </data>
+  <data name="TooltipEnabled_Desc_Key" xml:space="preserve">
+    <value>Show a tooltip when hovering over points.</value>
+  </data>
+
+  <data name="HoverValueLabelEnabled_Display_Key" xml:space="preserve">
+    <value>Hover value label enabled</value>
+  </data>
+  <data name="HoverValueLabelEnabled_Desc_Key" xml:space="preserve">
+    <value>Show the current point coordinates when hovering over a point.</value>
+  </data>
+
+  <data name="SnapToNearestPoint_Display_Key" xml:space="preserve">
+    <value>Snap to nearest point</value>
+  </data>
+  <data name="SnapToNearestPoint_Desc_Key" xml:space="preserve">
+    <value>When hovering, pick the nearest point within hoverRadiusPx. If off, hover prefers the selected series when possible.</value>
+  </data>
+
+  <data name="HoverRadiusPx_Display_Key" xml:space="preserve">
+    <value>Hover radius (px)</value>
+  </data>
+  <data name="HoverRadiusPx_Desc_Key" xml:space="preserve">
+    <value>How close (in pixels) the cursor must be to a point to count as hovered.</value>
+  </data>
+
+  <data name="HoverThrottleMs_Display_Key" xml:space="preserve">
+    <value>Hover throttle (ms)</value>
+  </data>
+  <data name="HoverThrottleMs_Desc_Key" xml:space="preserve">
+    <value>Minimum milliseconds between hover output updates/events to reduce Power Fx recalculation.</value>
+  </data>
+
+  <data name="MaxPointsToRender_Display_Key" xml:space="preserve">
+    <value>Max points to render</value>
+  </data>
+  <data name="MaxPointsToRender_Desc_Key" xml:space="preserve">
+    <value>Max points per series to render. If exceeded, points are downsampled.</value>
+  </data>
+
+  <data name="DownsampleMode_Display_Key" xml:space="preserve">
+    <value>Downsample mode</value>
+  </data>
+  <data name="DownsampleMode_Desc_Key" xml:space="preserve">
+    <value>Downsampling strategy: "none", "lttb", or "minmax".</value>
+  </data>
+
+  <data name="UseAxisBounds_Display_Key" xml:space="preserve">
+    <value>Use axis bounds</value>
+  </data>
+  <data name="UseAxisBounds_Desc_Key" xml:space="preserve">
+    <value>When enabled, apply xMin/xMax/yMin/yMax as fixed axis bounds. When disabled, axes auto-scale to the data.</value>
+  </data>
+
+  <data name="XMin_Display_Key" xml:space="preserve">
+    <value>X min</value>
+  </data>
+  <data name="XMin_Desc_Key" xml:space="preserve">
+    <value>Optional X-axis minimum. Leave blank (Blank()) for auto-scale.</value>
+  </data>
+
+  <data name="XMax_Display_Key" xml:space="preserve">
+    <value>X max</value>
+  </data>
+  <data name="XMax_Desc_Key" xml:space="preserve">
+    <value>Optional X-axis maximum. Leave blank (Blank()) for auto-scale.</value>
+  </data>
+
+  <data name="YMin_Display_Key" xml:space="preserve">
+    <value>Y min</value>
+  </data>
+  <data name="YMin_Desc_Key" xml:space="preserve">
+    <value>Optional Y-axis minimum. Leave blank (Blank()) for auto-scale.</value>
+  </data>
+
+  <data name="YMax_Display_Key" xml:space="preserve">
+    <value>Y max</value>
+  </data>
+  <data name="YMax_Desc_Key" xml:space="preserve">
+    <value>Optional Y-axis maximum. Leave blank (Blank()) for auto-scale.</value>
+  </data>
+
+  <data name="LineWidthPx_Display_Key" xml:space="preserve">
+    <value>Line width (px)</value>
+  </data>
+  <data name="LineWidthPx_Desc_Key" xml:space="preserve">
+    <value>Stroke width for series lines.</value>
+  </data>
+
+  <data name="ShowPoints_Display_Key" xml:space="preserve">
+    <value>Show points</value>
+  </data>
+  <data name="ShowPoints_Desc_Key" xml:space="preserve">
+    <value>Render point markers on the line.</value>
+  </data>
+
+  <data name="BackgroundColor_Display_Key" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="BackgroundColor_Desc_Key" xml:space="preserve">
+    <value>Background color (CSS color string), e.g. "#ffffff".</value>
+  </data>
+
+  <data name="HoveredSeriesId_Display_Key" xml:space="preserve">
+    <value>Hovered series id</value>
+  </data>
+  <data name="HoveredSeriesId_Desc_Key" xml:space="preserve">
+    <value>Series id for the currently hovered point (empty when none).</value>
+  </data>
+
+  <data name="HoveredPointIndex_Display_Key" xml:space="preserve">
+    <value>Hovered point index</value>
+  </data>
+  <data name="HoveredPointIndex_Desc_Key" xml:space="preserve">
+    <value>Original index of the hovered point in its series points array (-1 when none).</value>
+  </data>
+
+  <data name="HoveredT_Display_Key" xml:space="preserve">
+    <value>Hovered t</value>
+  </data>
+  <data name="HoveredT_Desc_Key" xml:space="preserve">
+    <value>Deprecated. Same as hoveredX.</value>
+  </data>
+
+  <data name="HoveredX_Display_Key" xml:space="preserve">
+    <value>Hovered x</value>
+  </data>
+  <data name="HoveredX_Desc_Key" xml:space="preserve">
+    <value>Hovered point X value.</value>
+  </data>
+
+  <data name="HoveredY_Display_Key" xml:space="preserve">
+    <value>Hovered y</value>
+  </data>
+  <data name="HoveredY_Desc_Key" xml:space="preserve">
+    <value>Hovered point value (float).</value>
+  </data>
+
+  <data name="HoveredLabel_Display_Key" xml:space="preserve">
+    <value>Hovered label</value>
+  </data>
+  <data name="HoveredLabel_Desc_Key" xml:space="preserve">
+    <value>Hovered point label (empty when none).</value>
+  </data>
+
+  <data name="HoveredPointJson_Display_Key" xml:space="preserve">
+    <value>Hovered point JSON</value>
+  </data>
+  <data name="HoveredPointJson_Desc_Key" xml:space="preserve">
+    <value>Compact JSON payload for the hovered point (empty when none).</value>
+  </data>
+
+  <data name="SelectedSeriesId_Display_Key" xml:space="preserve">
+    <value>Selected series id</value>
+  </data>
+  <data name="SelectedSeriesId_Desc_Key" xml:space="preserve">
+    <value>Series id for the selected point (empty when none).</value>
+  </data>
+
+  <data name="SelectedPointIndex_Display_Key" xml:space="preserve">
+    <value>Selected point index</value>
+  </data>
+  <data name="SelectedPointIndex_Desc_Key" xml:space="preserve">
+    <value>Original index of the selected point in its series points array (-1 when none).</value>
+  </data>
+
+  <data name="SelectedT_Display_Key" xml:space="preserve">
+    <value>Selected t</value>
+  </data>
+  <data name="SelectedT_Desc_Key" xml:space="preserve">
+    <value>Deprecated. Same as selectedX.</value>
+  </data>
+
+  <data name="SelectedX_Display_Key" xml:space="preserve">
+    <value>Selected x</value>
+  </data>
+  <data name="SelectedX_Desc_Key" xml:space="preserve">
+    <value>Selected point X value.</value>
+  </data>
+
+  <data name="SelectedY_Display_Key" xml:space="preserve">
+    <value>Selected y</value>
+  </data>
+  <data name="SelectedY_Desc_Key" xml:space="preserve">
+    <value>Selected point value (float).</value>
+  </data>
+
+  <data name="SelectedLabel_Display_Key" xml:space="preserve">
+    <value>Selected label</value>
+  </data>
+  <data name="SelectedLabel_Desc_Key" xml:space="preserve">
+    <value>Selected point label (empty when none).</value>
+  </data>
+
+  <data name="SelectedPointJson_Display_Key" xml:space="preserve">
+    <value>Selected point JSON</value>
+  </data>
+  <data name="SelectedPointJson_Desc_Key" xml:space="preserve">
+    <value>Compact JSON payload for the selected point (empty when none).</value>
+  </data>
+
+  <data name="OnHoverChanged_Display_Key" xml:space="preserve">
+    <value>On hover changed</value>
+  </data>
+  <data name="OnHoverChanged_Desc_Key" xml:space="preserve">
+    <value>Power Fx action that runs when the hovered point changes. Read hovered* outputs in the handler.</value>
+  </data>
+
+  <data name="OnSelectionChanged_Display_Key" xml:space="preserve">
+    <value>On selection changed</value>
+  </data>
+  <data name="OnSelectionChanged_Desc_Key" xml:space="preserve">
+    <value>Power Fx action that runs when the selected point changes. Read selected* outputs in the handler.</value>
+  </data>
+</root>
