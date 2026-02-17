@@ -4,6 +4,26 @@ Power Apps Component Framework (PCF) custom control repository.
 
 CurveChart is a PCF virtual control for Canvas apps that renders interactive XY curve and line charts from JSON, with ordering modes, duplicate policies, and hover and selection outputs.
 
+## Visual preview
+
+### Sorted X mode
+Sample input:
+
+![Sorted X sample](docs/sample-images/sorted-x_sample.png)
+
+PCF rendering:
+
+![Sorted X PCF output](docs/sample-images/sorted-x_pcf.png)
+
+### Index-driven mode
+Sample input:
+
+![Index-driven sample](docs/sample-images/index-driven_sample.png)
+
+PCF rendering:
+
+![Index-driven PCF output](docs/sample-images/index-driven_pcf.png)
+
 ## Creator
 - Harllens George de la Cruz - The Boring Cat
 - https://theboringcat.com/
