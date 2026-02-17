@@ -1,9 +1,9 @@
 # CurveChart PCF
 
-[![Release](https://img.shields.io/github/v/release/Just-Boring-Cat/cardinal-chart-pcf?label=release)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/releases)
-[![License](https://img.shields.io/github/license/Just-Boring-Cat/cardinal-chart-pcf)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/Just-Boring-Cat/cardinal-chart-pcf)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/commits/main)
-[![Repo Size](https://img.shields.io/github/repo-size/Just-Boring-Cat/cardinal-chart-pcf)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf)
+[![Release](https://img.shields.io/github/v/release/just-boring-cat/cardinal-chart-pcf?label=release)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/releases)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/just-boring-cat/cardinal-chart-pcf)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/just-boring-cat/cardinal-chart-pcf)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf)
 [![Platform](https://img.shields.io/badge/Power%20Apps-PCF-742774)](https://learn.microsoft.com/power-apps/developer/component-framework/overview)
 [![Package](https://img.shields.io/badge/Dataverse-Managed%20Solution-0a7f2e)](https://github.com/Just-Boring-Cat/cardinal-chart-pcf/releases)
 
